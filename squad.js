@@ -24,4 +24,7 @@ class Squad {
   clone() {
     return this._squad.map((unit) => unit.clone());
   }
+  isType() {
+    return this._squad((unit) => unit.returnType());
+  }
 }

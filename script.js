@@ -1,12 +1,33 @@
-const saboteur = [new Unit("Saboteur", 500, 1000, 550)];
-saboteur.push(saboteur[0].clone());
-saboteur.push(saboteur[0].clone());
-saboteur.push(saboteur[0].clone());
-const saboteurSquad = new Squad(saboteur);
-console.log(saboteur);
-const archer = [new Unit("archer", 500, 150, 300)];
-archer.push(archer[0].clone());
-archer.push(archer[0].clone());
-const archerSquad = new Squad(archer);
-console.log(archer);
-console.log(archerSquad.isReadyToFight(), saboteurSquad.isReadyToMove());
+const archerUnit = (document.getElementById(
+  "first_unit_type"
+).innerText = archer.getType());
+const assassisnUnit = (document.getElementById(
+  "second_unit_type"
+).innerText = assassin.getType());
+const priestUnit = (document.getElementById(
+  "third_unit_type"
+).innerText = priest.getType());
+archer.getStat();
+assassin.getStat();
+priest.getStat();
+archer.changeHealth()
+archer.changeHealth()
+archer.changeHealth()
+archer.changeHealth()
+archer.changeHealth()
+archer.changeHealth()
+archer.changeHealth()
+archer.changeHealth()
+archer.changeHealth()
+archer.changeHealth()
+archer.changeHealth()
+archer.changeHealth()
+archer.changeHealth()
+archer.changeStamina()
+archer.changeStamina()
+archer.changeStamina()
+archer.changeStamina()
+archer.changeStamina()
+archer.changeStamina()
+archer.changeStamina()
+archer.changeStamina()
